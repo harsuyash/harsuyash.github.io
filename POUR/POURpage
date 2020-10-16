@@ -1,0 +1,868 @@
+
+<!doctype html>
+<html>
+
+<head> <title> Har Suyash </title>
+        
+	<!-- RESPONSIVE -->
+	<meta name="viewport" content="width= device-width">
+        
+    <!-- FAVICON -->    
+    <link rel="icon" type="image/png" href="../Homepage/favicon.png" >
+        
+    <!-- FONTS -->    
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Noto+Serif:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- STYLESHEET -->    
+    <link href="pour.css" rel="stylesheet" type="text/css">
+     <link href="Homepage/homepage.css" rel="stylesheet" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    
+        
+</head>
+
+
+    
+<body>
+    
+    
+    
+     
+    <header class="menu" id="myHeader">
+            <div class="topnav" id="mynav">
+                <a href="../index.html"><img src="../Homepage/HSB%20LOGO.svg" alt="Logo" width="32px" class="homeicon" id="hidden" style="margin-left: auto; margin-right: auto; margin-top: 7px"></a>
+                    <div class="topnav-right">
+                        
+                         
+                         <a href="../index.html#anchor-mywork" style="margin-top: 10px">Case Studies</a>
+                         <a href="gallery"  style="margin-top: 10px; margin-left: 3px"> Gallery</a>
+                         <a href="../Homepage/Resume.pdf" class="resume"> <img src="../Homepage/download.svg"  class="download" alt="instagram account" width="18px" style="margin-top: 7px"> Resume</a>
+                       
+                </div>
+            </div>
+    </header>
+    
+    
+    
+     <div class="coverpage"> 
+         <p class="title" align="center">POUR</p>
+         <p class="headings" style="text-align: center; margin-top: 0px; padding-bottom: 30px; color: #777777">Assisstive Device for Blind Users</p>
+        
+        <p align="center" class="fields" style="margin-bottom: 150px; font-size: 14px;">FEB 2020 | &emsp; Product design  &emsp;  Tactile interactions &emsp; User study</p> 
+         </div> 
+    
+    
+     <nav class="progress" id="myHeader2">
+          <center> <ul class="topprog" id="myprog">
+                
+                <!--<li ><a href="../ARCAR/ARCARpage.html" > <img src="../chevrons-left.svg" alt="previous project" width="18px" style="float: left;" ></a></li>--> 
+                <li ><a href="#intro" class="intro-marker active " >Introduction &emsp; ></a> </li> 
+                <li ><a href="#story" class="story-marker " > Empathizing &emsp;></a></li> 
+                <li ><a href="#define" class="define-marker " > Identifying Problem &emsp;></a></li>
+                <li ><a href="#place" class="place-marker " > Ideation &emsp;></a></li>
+                <li ><a href="#text" class="menu-marker " > Final Solution &emsp;></a></li>
+                <li ><a href="#select" class="select-marker " > Evaluation  &emsp;></a></li>
+                <li ><a href="#conc" class="conc-marker " > Conclusion &emsp;></a></li>
+                <li ><a href="../PaperPotli/PaperPotlipage.html" class="next-marker" style="margin-right: -20px">Next Project</a></li>
+                <li ><a href="../PaperPotli/PaperPotlipage.html" class="next-marker" ><img src="../chevrons-right.svg" alt="previous project" width="18px" style="float: left; padding-top: 1px" ></a></li>
+              
+            </ul>
+              </center> 
+           </nav>
+    
+    <!-- COVER PHOTO -->
+    <div id="coverpage">  
+        <div class="cover">
+        </div>
+    </div>  
+
+    
+    
+   
+    
+    
+    
+    
+    <!-- INTRODUCTION -->
+    <section class="intro" id="intro">
+        
+        <!-- PROJECT BACKGROUND -->
+        <p class="headings">Background: Ergonomics Project</p>
+        <p class="content">This project was done for a course in Ergonomics in a duration of three weeks. Created a novel product with physical micro-interactions for feedback, and to assist safely pour and measure liquids. Evaluated concepts through AD-SWOT and time-motion analysi and reduced pour time to ~2/3 while avoiding any spilling and over filling while pouring.</p>
+        
+        
+        <!-- TOPIC -->
+        <p class="headings">"Design intervention to help visually impared persons, safely pour and measure hot liquids."</p>
+        <center><p class="caption"> </p></center>
+        
+        
+         <!-- Concern -->
+        <p class="headings">The Concern</p>
+        <p class="content">Pouring and measuring liquids is a task we do as a part of various day to day activities like cooking, serving water, making tea and taking medicines. We rely heavily on visual feedback and hand eye coordination for performing the task safely and efficiently. Such tasks can be extremely difficult for the visually impaired. Without a visual feedback, a lot of information is missing that is essential such as position of cup and container, level of liquid, trajectory of liquid, etc. This project focuses on such cognitive aspects of ergonomics.</p>
+       <center><div class="row"> 
+            
+            <div class="column" style="width: 400px">
+                <img src="pic2.jpg" width="400px" class="img">
+            </div>
+            
+            <div class="column">
+                <img src="pic1.jpg" width="400px" class="img">
+            </div>
+        </div></center> 
+    </section> <!-- INTRODUCTION -->
+    
+    
+    
+    
+    
+   <!-- STORYTELLING -->
+   <section class="story" id="story">
+       
+       <!-- Simulation -->
+       <p class="headings">Conducted Blindfold Simulation</p>
+       <p class="content">I performed a blindfold simulation on myself for different scenarios and with different utensils. I observed the behaviour and the challenges first hand and analysed them through a video. </p>
+       
+       <center>
+       <img src="Simulation.png" style="max-width: 640px; margin-top: 20px" class="img">
+       </center>
+       
+       
+           
+               <p class="headings">User Journey Mapping</p>
+               <img src="Scenario%201.png" width="100%" style=" margin-top: 24px; " class="img">
+           
+        
+           <p class="headings" style="margin-top: 20px">Pouring cold water from jug: Insights</p>
+           <p class="content" style="margin-bottom: 100px; ">-Large mouth and bulky nature of the jug creates difficulty
+
+            <br>
+            <br>   -Difficult to aim inside the glass, aligning takes some time
+
+            <br>
+            <br>   -No feedback of how much water is pouring and is all of it going inside?
+
+            <br>
+            <br>   -Difference in temperature of glass’ outer surface provides feedback of the level of water filled inside
+ </p>
+       
+           
+           <center>
+              <img src="Scenario%202.png" width="100%" style=" margin-top: 24px; " class="img">
+           </center>
+           
+            <p class="headings" style="margin-top: 20px">Pouring hot tea using electronic leveler: Insights</p>
+           <p class="content" style="margin-bottom: 100px; ">-Storing electronic assistive devices: they might get misplaced
+            <br>
+            <br>   -Leveler does not provide continuous feedback and creates a waiting time of doubt and anxiety
+
+            <br>
+            <br>   -Grooves on the thermos head provide friction for support against rim and tactile clue to align with cup.
+
+            <br>
+            <br>   -Flow in a thermos is controlled by the small openings, easy to open and shut the flow at any time with a press
+ </p>
+        
+       
+       
+              <p class="headings">Human Machine System Model</p>
+           <center> 
+              <img src="Task.png" width="100%" style=" margin-top: 24px; " class="img">
+           </center>
+           
+            <p class="headings" style="margin-top: 20px">Task Analysis</p>
+           <p class="content" style="margin-bottom: 100px; ">1. Locating cup and container/ kettle/ bottle in space.
+            <br>
+            <br>   2. Coordinating both hands. Identifying relation between two.
+
+            <br>
+            <br>   3. Aligning the openings of the two.
+
+            <br>
+            <br>   4. Pouring liquid in a controlled way.
+            <br>
+            <br>   5. Regulating the flow of liquid.
+            <br>
+            <br>   6. After cup is filled till required level, tilt the kettle back to normal.   
+            <br>
+            <br>Point 3, 4 and 5 are aided by continuous feedback form te system to keep th evessels aligned, control and regulate the flow.
+ </p>
+        
+
+    
+
+    
+    <!-- PROBLEM  -->
+    <section class="define" id="define">
+       
+      
+        
+        <!-- SWOT -->
+        <p class="headings">AD- SWOT Analysis</p>
+        <p class="content">For developing assistive devices one needs to consider the abilities along with the disabilities of the user. It also becomes important to consider the environment of the user and the threats imposed by it. In their study, Fong-Gong Wu, Min-Yuan Ma, Ro-Han Chang discuss how SWOT analysis can be used to design a criteria for the design of an assistive device for a specific context.
+<br><br>The SWOT analysis for the current scenarios was done by listing out all the user statements, insights, observations, and design ideas and the sorting them into groups. Strengths, weaknesses, threats and opportunities were induced from those statements like affinity mapping.
+        </p>
+        <div class="back">
+        <div class="row" style="max-width: 960px; margin-top: 14px;">
+                <div class="column" style="min-width: 44%;">
+                    <p class="caption">Strengths</p>
+            <p class="content"> S1 .  Gauge weight, balance, location and alignment to facilitate direct manipulation of light vessels at normal temperature.
+<br><br>
+S2 .  Can perform tasks step by step by assessing sequential feedback for each step at a time.
+<br><br>
+S3 .  Good, naturally learnt tactile sense to discriminate between different textures and temperature qualitatively.
+<br><br>
+S4 .  Easy to pour with small openings. They also provide enhanced audio feedback due to high pressure of a small stream.
+ </p>
+                </div>
+                
+                <div class="column" style="min-width: 44%;">
+                    <p class="caption">Weaknesses</p>
+                    <p class="content">W1 .  Difficulty in aligning multiple objects.
+<br><br>
+W2 .  Difficulty to rely on Tactilo-Kinesthetic Feedback for heavy and hot objects.
+<br><br>
+W3 .  Lack of continuous and multiple feedbacks (of position of vessels, trajectory of liquids) restrict user from taking impromptu regulation (of position of vessels, trajectory of liq.)
+<br><br>
+W4 .  Difficulty in handling and locating multiple discrete objects.
+</p>
+                </div>
+            </div>
+        
+            
+             
+            
+            <div class="row" style="max-width: 960px; margin-top: 14px;">
+                <div class="column" style="min-width: 44%;">
+                    <p class="caption">Opportunities</p>
+            <p class="content">O1 .  A  Multipurpose device for funneling, filtering and measuring 
+<br><br>
+O2 .  An intermediate measuring device to measure first and then pour
+<br><br>
+O3 .  A separate dispensing system for any liquid
+<br><br>
+O4 .  Electronic device with amplified/ augmented sensory feedback
+</p>
+                </div>
+                
+                <div class="column" style="min-width: 44%;">
+                    <p class="caption">Threats</p>
+                    <p class="content">T1 .  Direct contact of liquid while pouring can cause burns
+<br><br>
+T2 .  Getting burnt by touching a hot vessel while locating them
+<br><br>
+T3 .  Burning sensation and discomfort due to steam rising from vessel 
+<br><br>
+T4 .  Dropping and breaking (also losing) objects</p>
+                </div>
+            </div>
+        
+        
+        
+       </div>   
+        
+        
+        
+    </section> <!-- swot -->
+    
+    
+    
+    
+    
+    <!-- IDEATION -->
+    <section class="place" id="place">
+        
+        
+            
+            
+            <!-- SWOT-->
+            <p class="headings">Generating Ideas using points from SWOT </p>
+            <p class="content">After SWOT analysis, Weihrich (1982) proposed a strategy called the ‘‘TOWS’’ (Threats, Opportunities, Weaknesses, and Strengths). It is a method of systematically identifying relationships between these factors and suggesting solutions from the analysis. TOWS maximizes the Strengths and Opportunities, while minimizing the Weaknesses and Threats. 
+                <br><br>The corresponding labels with the sketches (SnOn/ WnOn) indicate the nth SWOT principle they are linked to.
+        
+        </p>
+        
+        
+             <center>
+       <img src="Solutions.png" width="100%" style="margin-top: 20px" class="img">
+       </center>
+        
+        <!-- SWOT-->
+            <p class="headings">Evaluating Ideas Based on Principles</p>
+            <p class="content"> In their study, Fong-Gong Wu, Min-Yuan Ma, Ro-Han Chang also provide a quantitative framework for evaluating the concepts that categorizes the criteria principles into safety, functionality and usability. 
+                <br><br>The criteria for evaluation was based on the most important needs of the user derived from the SWOT. The needs were first categorized under safety, functionality, and usability  and the hierarchized by giving each need a weightage of 0.09, 0.03, 0.01 with more preference to safety. 
+        
+        </p>
+        
+        <center>
+        <table style="max-width: 680px; margin-top: 60px;">
+  <tr>
+    <td class="caption"></td>
+    <td class="caption">Safety principle</td> 
+    <td class="caption">Weightage</td>
+  </tr>
+  <tr>
+    <td class="content">P1</td>
+    <td class="content">No spilling over the edge while pouring</td>
+    <td class="content">0.09</td>
+  </tr>
+  <tr>
+    <td class="content">P2</td>
+    <td class="content">No over filling</td>
+    <td class="content">0.09</td>
+  </tr>
+  <tr>
+    <td class="content">P3</td>
+    <td class="content">Avoid touching hot vessel</td>
+    <td class="content">0.09</td>
+  </tr>
+<tr>
+    <td class="caption"></td>
+    <td class="caption">Functionality principle</td> 
+    <td class="caption">Weightage</td>
+  </tr> 
+<tr>
+    <td class="content">P4</td>
+    <td class="content">Pour measured/ desired amount of liquid</td>
+    <td class="content">0.03</td>
+  </tr> 
+<tr>
+    <td class="caption"></td>
+    <td class="caption">Usability principle</td> 
+    <td class="caption">Weightage</td>
+  </tr> 
+<tr>
+    <td class="content">P5</td>
+    <td class="content">Ease of measuring</td>
+    <td class="content">0.01</td>
+  </tr>
+<tr>
+    <td class="content">P6</td>
+    <td class="content">Ease of pouring/ controling the flow</td>
+    <td class="content">0.03</td>
+  </tr>            
+</table>
+        
+</center>
+        
+        <p class="content" style="margin-top: 60px"> All ideas can not be prototyped and tested but we need to filter them out critically and identify the few ideas with most potential. For this reason, I evaluated the ideas based on the problems they intend to solve hypothetically. The dots indicate that the idea has the potential of fulfilling those principles.
+        
+        </p>
+
+        
+        <center>
+            <div style="overflow-x:auto;">
+        <table style="max-width: 680px; margin-top: 60px;">
+            
+            
+            <tr>
+                <th class="caption" ></th>
+                <th class="caption" colspan="3">Safety</th>
+                <th class="caption">Function</th>
+                <th class="caption" colspan="2">Usability</th>
+                <th class="caption"></th>
+            </tr>
+            
+            <tr>
+                <td class="caption">Concept</td>
+                <td class="caption">P1 (0.09)</td>
+                <td class="caption">P2 (0.09</td>
+                <td class="caption">P3 (0.09</td>
+                <td class="caption">P4 (0.03)</td>
+                <td class="caption">P5 (0.01</td>
+                <td class="caption">P6 (0.03</td>
+                <td class="caption">Total</td>
+            
+            </tr>
+            
+            <tr>
+                <td class="content"><b>S3O4</b></td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content"><b>0.25</b></td>
+            </tr>
+            
+            <tr>
+                <td class="content">S3O2</td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">0.16</td>
+            </tr>
+            
+            <tr>
+                <td class="content">S2O2</td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">0.22</td>
+            </tr>
+            
+            <tr>
+                <td class="content"><b>S4O1</b></td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content"><b>0.31</b></td>
+            </tr>
+            
+            <tr>
+                <td class="content">S1/W1O1</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">No</td>
+                <td class="content">0.21</td>
+            </tr>
+            
+            <tr>
+                <td class="content">W1O2</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">No</td>
+                <td class="content">No</td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">0.12</td>
+            </tr>
+            
+            <tr>
+                <td class="content">W2O2</td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">No</td>
+                <td class="content">0.21</td>
+            </tr>
+            
+            <tr>
+                <td class="content">W2O3</td>
+                <td class="content">NO</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">Yes</td>
+                <td class="content">Yes</td>
+                <td class="content">No</td>
+                <td class="content">0.13</td>
+            </tr>
+            
+        </table>
+            </div>
+        </center>
+  
+        
+  
+    
+    
+   <p class="headings">Scampering with the Hero Ideas</p>
+            <p class="content"> concept S4O1 that uses a funnel like mechanism and S3O4 that has a floater for continuous feedback through electronic sound are the top two concepts and I thought to combine these two and have a device that helps in both pouring and measuring liquids. 
+                <br><br>The concept borrowed the idea of a funnel-like structure from S3O4 and a floater for continuous feedback from S4O1 while adding an extra feature of a base for stability and helping in alignment by making a unifying system between the cup and the pourer, using the continuous form. 
+        
+        </p>
+        
+        <center>    
+       <img src="The%20chosen%20one.png" style="max-width: 640px; margin-top: 20px;" class="img">
+       </center>
+    
+       </section>   
+    
+       
+       <section class="menu" id="text">
+           
+           
+           
+            <p class="headings">An Apparatus Independent of Device</p>
+            <p class="content">An independent apparatus that binds any vessel and a container into a system with tangible connections. It gives a form to the relations between pouring and poured vessel in space. Thus making up for the lack of visual referencing and estimations and facilitating seeing through hands.
+ </p>
+           
+           <div class="row"> 
+               
+               <!-- COMPONENT DIAGRAM -->
+            <div class="column" style="margin-right:120px;">
+                <img src="Pour%20Sketch1.jpg" width="400px" class="img"> 
+            </div>
+            
+            <!-- CAR CAPTION -->
+            <div class="column" style="min-width: 44%;  margin-top: 60px">
+                <p class="caption">Form follows communication </p>
+                <p class="content">Here there are tactile/ physical micro interactions like:
+                <br><br>
+                -Rings on base to stably position the cup
+                    <br><br>
+                    -An inward dent in the base to align the pouring vessel in a straight line with cup
+                    <br><br>
+                    -The curves at the top to perfectly align and stably position the pouring vessel
+                    <br><br>
+                    -The stem to feel the rise in level of floater with no direct contact with the vessel
+                </p>
+            </div>
+            
+            
+        
+        </div>
+           
+            <div class="row" style="margin-top: 0px"> 
+            
+            <div class="column" style="min-width: 47%;  margin-top: 60px; margin-right: -30px">
+                <p class="caption">Floater mechanism</p>
+                
+                <p class="content">-Inverted U-shaped floater hangs on the stem
+                    <br><br>
+                    -The floater rises with rising level of liquid
+                    <br><br>
+                    -The bar at the back of stem rises in sync
+                    <br><br>
+                    -User can feel this rise and get a continuous feedback of the rate of filling
+                    <br><br>
+                    -This also prevents direct contact with the vessesls (if hot) while control over them
+                
+                </p>
+               
+            </div>
+            
+            <div class="column">
+                <img src="Pour%20Sketch2.jpg" width="360px" class="img">
+            </div>
+        </div>
+           
+           
+            <p class="headings">Communicating Liquid Level on the Stem</p>
+            <p class="content">After designing the overall form and interactions that help in aligning and pouring, I had to design readings on the stem that communicate the rise in liquid as the floater rises. This will help the user measure the amount of liquid filled.
+           <br><br>
+                Made a paper prototype to test the reading with a rising floater level:
+           </p>
+            <center>
+       <img src="Reading%20on%20stem.png" style="max-width: 640px; margin-top: 20px" class="img">
+       </center>
+            <p class="caption">Proportional reading for proportional measurement</p>
+           <p class="content">The measurement required for kitchen purposes is proportional eg. 1/2 cup, 1/4, 2/3 etc. We use visual sense to estimate these proportions. A continuous gaze running through the height judges its half, quarter, etc. Hence the user might not be bothered with accurate measures but equipped with a way to gaze the height and estimate the proportions by touching. 
+               <br><br>
+               <b>Feedback:</b> Its not easy to compare the width of lines to tell the proportions. The sensitivity of measuring the level keeps reducing as the lines thicken and dont commnicate the level precisely. 
+</p>
+           <center>
+       <img src="Readings.png" style="max-width: 850px; margin-top: 72px" class="img">
+       </center>
+           
+            <p class="caption">Gauging the proportion with one finger touch</p>
+           <p class="content">  I made markings that represent vertical proportions in a horizontal line that can be felt with a single phalanx of finger. The user can first check the height of cup next to the stem and then slide the thumb/ finger downwards while gauging the proportion in terms of half/ quarter, etc. 
+</p>
+           
+           <center>
+       <img src="Proportional%20readings.png" style="max-width: 640px; margin-top: 100px" class="img">
+       </center>
+           
+            <p class="caption">Comparing ratio of raised vs flat lines to tell the proportions</p>
+           <p class="content"> Based on the height of cup eg. if the height of cup is 4 units, the user can slide the finger and stop where there are 2 units raised and 2 in deppression. With this comparison it is easier and more accurate to tell the proportions.</p>
+           
+           
+       <p class="headings">Final Render of the Product</p>
+       <img src="POUR.png" width="100%" style="margin-top: 30px">
+           
+           <!-- USER JOURNEY -->
+           <p class="headings">Final User Journey</p>
+        <p class="content">The following few images demonstrate how the final product is intended to use. The journey from locating, aligning, pouring to stopping after filling desired amount is considered while designing and solutions have been suggested for major problems highlighted earlier.</p>
+           
+           <center>
+       <img src="initialization.gif" style="width:640px; margin-top: 60px" class="img">
+       </center>
+           <p class="caption">A single hand stroke to initialize and then read the markings</p>
+           <p class="content"> </p>
+           <center>
+       <img src="Align%20base.png" style="max-width: 640px; margin-top: 60px" class="img">
+       </center>
+           
+           <p class="caption">As the kettle fits in the curve of base, it is aligned with mug</p>
+           <p class="content"> </p>
+           
+           <center>
+       <img src="Align%20top%20pour.png" style="max-width: 640px; margin-top: 60px" class="img">
+       </center>
+           <p class="caption">The opening of the kettle settles in the curves of the ring </p>
+           <p class="content"> </p>
+           
+           <center>
+       <img src="rising.gif" style="width: 640px; margin-top: 60px" class="img">
+       </center>
+       <p class="caption">Continuous feedback from the floater rising with the liquid </p>
+           <p class="content"> </p>
+           <center>
+       <img src="stop.png" style="max-width: 640px; margin-top: 60px" class="img">
+       </center>
+       <p class="caption">Stop pouring as the floater reaches the desired level </p>
+           <p class="content"> </p>
+           
+           
+        <!--   <div class="row" style="margin-top: 0px"> 
+               
+            <div class="column" style="min-width: 40%;">   
+           <center>
+       <img src="initialization.gif" style="max-width: 400px; margin-top: 60px" class="img">
+       </center>
+               </div>
+               <div class="column" style="float: right; min-width: 40%; margin-top: 30px">
+           <p class="caption">A single hand stroke to initialize and then read the markings</p>
+           <p class="content"> </p>
+               </div>
+           </div>   
+           
+           <div class="row" style="margin-top: 60px"> 
+               
+                
+               <div class="column" style="min-width: 40%; margin-top: 30px">
+           <p class="caption">As the kettle fits in the curve of base, it is aligned with mug</p>
+           <p class="content"> </p>
+               </div>
+               
+            <div class="column" style="min-width:0%;">   
+           <center>
+       <img src="Align%20base.png" style="max-width: 400px; margin-top: 60px" class="img">
+       </center>
+              
+           </div>
+    </div>
+               
+             <div class="row" style="margin-top: 0px"> 
+               
+            <div class="column" style="min-width: 40%;">   
+           <center>
+       <img src="Align%20top%20pour.png" style="max-width: 400px; margin-top: 60px" class="img">
+       </center>
+               </div>
+               <div class="column" style="float: right; min-width: 40%; margin-top: 30px">
+           <p class="caption">The opening of the kettle settles in the curves of the ring</p>
+           <p class="content"> </p>
+               </div>
+           </div>   
+              
+            <div class="row" style="margin-top: 60px"> 
+               
+                
+               <div class="column" style="min-width: 40%; margin-top: 30px">
+           <p class="caption">Continuous feedback from the floater rising with the liquid</p>
+           <p class="content"> </p>
+               </div>
+               
+            <div class="column" style="min-width:0%;">   
+           <center>
+       <img src="rising.gif" style="max-width: 400px; margin-top: 60px" class="img">
+       </center>
+              
+           </div>
+    </div>
+           <div class="row" style="margin-top: 0px"> 
+               
+            <div class="column" style="min-width: 40%;">   
+           <center>
+       <img src="stop.png" style="max-width: 400px; margin-top: 60px" class="img">
+       </center>
+               </div>
+               <div class="column" style="float: right; min-width: 40%; margin-top: 30px">
+           <p class="caption">Stop pouring as the floater reaches the desired level </p>
+           <p class="content"> </p>
+               </div>
+           </div> 
+           -->
+           
+       </section>
+    
+    
+    <section class="select" id="select">
+       
+       
+        <p class="headings">Prototype for Testing</p>
+        <p class="content">A thermocol working prototype was made for the purpose of testing. It consisted of the base for stability, a funnel on top for aligning and pouring through, a stem to link the two that also carried the markings corresponding to the height of the liquid. A U shaped stem with a floater is to be placed inside the mug. </p>
+         
+           <center>
+       <img src="Final%20proto.png" style="max-width: 640px; margin-top: 30px" class="img">
+       </center>
+        
+         <p class="headings">Tested on Blindfolded Users </p>
+        <p class="content">The project was completed in lockdown condition due to COVID 19 and it was not possible to test it with actual users. Thus, it was tested at home by blindfolding people. The product was introduced to them only after blindfolding and was given to be used.<br><br>The product was tested against some qualitative and quantitative parameters. The users were first asked to fill a full cup without the product and then to do the same with the product. Time for both the activities was recorded for a time motion analysis. The other parameters were amount of spilling of water and accuracy of filling the required quantity. 
+</p>
+        
+         
+        <center>
+       <img src="testwithout.gif" style="max-width: 640px; margin-top: 60px" class="img">
+       </center>
+        <p class="caption" >Filling half cup without the product: spilling and more time</p>
+        
+        <center>
+       <img src="testwith.gif" style="max-width: 640px; margin-top: 60px" class="img">
+       </center>
+        <p class="caption">Filling half cup water with the product: user more confident</p>
+        
+        
+        <p class="headings">Feedback: works but a bit overwhelming at start </p>
+        <p class="content">The product was successful in making the pouring and measuring better in terms of accuracy and safety. It did not make a considerable difference in terms of efficiency. It could prevent water spilling and overfilling but still took some time for the user to familiarize herself with the product. <br><br>  In the time motion analysis, both the tasks are done in a decent amount of time. The task without the product was done in 35 sec and with the product was done in 25 sec. There is a 10 sec difference but as compared to an average sighted person who can fill the glass in about 5-10 sec, it is still way more than double.<br><br>The time for aligning was more but it helped later. The time for pouring was reduced due to continuous feedback giving confidence to the user.</p>
+        
+        
+       </section>
+    
+    <section class="conc" id="conc">
+       
+       <p class="headings">Future Scope: Going Electronic? </p>
+        <p class="content">The initial aim of the product was to solve an apparently simple task but the final solution opens potential for a new kind of kitchen product for blind that can be combined with products like weighing machine, induction, etc. that are currently used. The current mechanism of floater adds some complacacies in its use. The product can, however, be equipped with a sensor at its base and top funnel (weight, ultrasound) for a simpler use. The current device aims at a more tactile experience and to equip the user see through hands rather than digitizing the feedback. The form/ feel was liked by the user.
+</p>
+        
+      <p class="headings">Final note: how it looks in the kitchen</p> 
+        <div class="ending">
+            
+        </div>
+        
+       
+       </section>
+       
+       
+       
+       
+       
+       
+       
+       <section class="next">
+       
+       
+        <div id="anchor-mywork" style="margin-top: 100px; width:100%; padding-bottom: 150px; background: linear-gradient(190deg, rgba(241,249,255,1) 0%, rgba(253,245,248,1) 35%, rgba(249,244,243,1) 100%);">
+                <img src="../Homepage/Down%20Arrow.png" alt="scroll down" width="140px" style="display: block; margin-left: auto; margin-right: auto;">
+                <p class="headings" style="color: #777777">Check Out More</p>
+                <div class="projects">
+                    
+                    <div id="ARCar">
+                        <a href="../ARCAR/ARCARpage.html"><img src="../Homepage/AR%20CAR.png" alt="A R car" class="images" >
+                       <p class="headings2" align="left" style="color: #519FCC">Interactions in Augmented Reality</p></a> 
+                        <p align="left" class="content2">The project explored the topic of How Stuff Works using Augmented Reality as a medium. For the scope of this project, I explain how an IITB Racing car works, through a hand held device AR. Looked at key interaction design problems. </p> 
+                        <p align="left" class="fields"> MAY 2020 | &emsp; AR design  &emsp;  Interaction design  &emsp;  Unity prototyping</p> 
+                    </div>
+                    
+                    
+                    <div id="PaperPotli" style=" margin-top: 150px">
+                       <a href="../PaperPotli/PaperPotlipage.html"> <img src="../Homepage/Paper%20Potli.png" alt="Paper Potli"  class="images">
+                        <p align="left" class="headings2" style="color: #E79C46">Game for Gender Equality </p> </a> 
+                        <p align="left" class="content2">A craft + AR avatar making game for making children gender aware. Designed an end to end model for promoting gender equality among children through craft workshops and a digital application. The DIY dolls help explain, express and explore gender.</p> 
+                        <p align="left" class="fields">OCT 2019 | &emsp; Game design  &emsp;  Social design &emsp; User study</p> 
+                    </div>
+                    
+                   <!-- <div id="VAVE" style=" margin-top: 150px">
+                        <img src="../Homepage/VAVE.png" alt="VAVE"  class="images">
+                        <p align="left" class="headings2" style="color:#617C8D">Virtual Music Instrument</p> 
+                        <p align="left" class="content2">Designed and prototyped a virtual music instrument played with hand gestures. Explores tangible interactions to map different music variables with intuitive hand gestures. Explored mixed reality to visualize music.</p> 
+                        <p align="left" class="fields">JAN 2020 | &emsp; Interaction design  &emsp;  Tangible interaction &emsp; Mixed reality</p> 
+                    </div>-->
+                    
+                   
+            
+            
+                </div>
+           </div>
+            <div id="mycontact"  style=" padding-top: 50px; padding-bottom: 50px;"><p align="center" class="content">Thanks for visiting!</p></div>
+       
+       
+       </section>
+       
+       
+       
+       
+    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+    
+    
+window.onscroll = function() {myFunction(); myFunction2(); myFunction3(); myFunction4()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+
+var header2 = document.getElementById("myHeader2");
+var sticky2 = header2.offsetTop;
+
+function myFunction2() {
+  if (window.pageYOffset > sticky2) {
+    header2.classList.add("sticky2");
+  } else {
+    header2.classList.remove("sticky2");
+  }
+}           
+            
+/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+var prevScrollpos = window.pageYOffset;
+function myFunction3() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("myHeader").style.top = "0";
+  } else {
+    document.getElementById("myHeader").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+var prevScrollpos2 = window.pageYOffset;
+function myFunction4() {
+  var currentScrollPos2 = window.pageYOffset;
+  if (prevScrollpos2 > currentScrollPos2) {
+    document.getElementById("myHeader2").style.top = "60px";
+  } else {
+    document.getElementById("myHeader2").style.top = "0px";
+  }
+  prevScrollpos2 = currentScrollPos2;
+}
+			
+            
+            
+            (function() {
+
+                var navLinks = $('.topprog li a'),
+                    navH = $('.progress').height(),
+                    section = $('section'),
+                    documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    var currentScrollPos = documentEl.scrollTop();
+                    
+                    section.each(function() {
+                        var self = $(this);
+                        if ( self.offset().top < (currentScrollPos + navH) && (currentScrollPos + navH) < (self.offset().top + self.outerHeight()) ) {
+                            var targetClass = '.' + self.attr('class') + '-marker';
+                            navLinks.removeClass('active');
+                            $(targetClass).addClass('active');
+                        }
+                    });
+                    
+                });
+        })();
+    
+    
+    
+</script>
+    </body> 
+    
+</html>
+  
+
+    
