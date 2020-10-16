@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="173.478" height="149.948" viewBox="0 0 173.478 149.948">
+  <defs>
+    <radialGradient id="radial-gradient" cx="-0.393" cy="0.123" r="1.344" gradientTransform="matrix(1.301, -0.008, -0.009, -0.855, 0.119, 0.225)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2ec6ff"/>
+      <stop offset="1" stop-color="#8797ff"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="-0.743" y1="0.218" x2="1" y2="2.069" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff766"/>
+      <stop offset="1" stop-color="#ffcc89"/>
+    </linearGradient>
+  </defs>
+  <g id="HSB_LOGO" data-name="HSB LOGO" transform="translate(-559.417 1362.576)">
+    <g id="HB" transform="translate(559.417 -1362.576)">
+      <g id="g38-9" transform="translate(111.209 64.479)">
+        <g id="g40-1">
+          <g id="g46-4">
+            <g id="g48-0">
+              <path id="path58-8" d="M3729.768-2310.047c11.488.587,20.655,10.546,20.747,22.8h0l.338,41.4c.073,9.729-7.383,21.266-16.608,21.266h19.832c18.6,0,37.961-18.173,37.961-38.238h0v-5.836c0-26.55-18.13-41.395-39.243-41.395h-23.027Z" transform="translate(-3729.768 2310.047)" fill="url(#radial-gradient)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="g60-8" transform="translate(0.314)">
+        <g id="g62-6">
+          <g id="g68-1">
+            <g id="g70-6">
+              <path id="path80-8" d="M2839.713-2861.319h-58.052v7.512l4.771,1.353c5.409,1.691,7.487,3.6,7.487,10.828v41.319c0,12.663,9.732,22.928,21.736,22.928h32.662c-11.331-.846-20.353-12.781-20.476-24.906h0l-.421-39.5c-.111-9.758,7.357-19.534,16.608-19.534h-4.315Z" transform="translate(-2781.661 2861.319)" fill="url(#radial-gradient)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="g136-7" transform="translate(114.419 0)">
+        <g id="g138-3" transform="translate(0 0)">
+          <g id="g144-4">
+            <g id="g146-9">
+              <path id="path156-1" d="M3757.212-2873.308c9.173,0,16.609,9.688,16.609,19.4h0v30.782h29.065s9.725-9.43,7.975-22.761h0c-2.039-15.538-16.449-27.426-32.256-27.426h-21.393Z" transform="translate(-3757.212 2873.308)" fill="url(#radial-gradient)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="g158-9" transform="translate(0 96.213)">
+        <g id="g160-3">
+          <g id="g166-0">
+            <g id="g168-8">
+              <path id="path178-9" d="M2791.547-2007.569c0,7.226-1.8,12.556-7.8,13.985l-4.771.9v7.511h62.579c-9.173,0-16.609-11.451-16.609-21.126h0v-32.439l-33.4.011Z" transform="translate(-2778.976 2038.736)" fill="url(#radial-gradient)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="S" transform="translate(605.388 -1362.576)">
+      <g id="g90-8" transform="translate(54.276 0)">
+        <path id="path92-1" d="M-138.833-161.316l0,28.819h12.389V-163.36c0-9.676-7.436-19.323-16.609-19.323h-14.174v8.639h4.883c6.4.048,13.385,5.754,13.507,12.727" transform="translate(157.222 182.683)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="g98-7" transform="translate(0.102 0)">
+        <path id="path100-4" d="M-648.4-658.96c-.1-12.628-9.819-22.818-21.792-22.834l-39.77-.063c-6.715-.009-11.971-6.2-12.22-12.809l.185-30.11c-.051-7.166,5.864-12.681,11.794-12.817l5.277-.018.01-8.632h-12.759c-9.251,0-16.719,9.777-16.609,19.534l.421,39.5c.128,12.579,9.832,24.959,21.757,24.959h37.912c6.117.068,12.208,6.549,12.235,12.824l.27,31.663c-.142,7.016-7.353,12.83-14.142,12.83h-4.709l-.1,8.639h15.967c9.224,0,16.682-11.536,16.608-21.266Z" transform="translate(734.281 746.244)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="g106-0" transform="translate(0 96.127)">
+        <path id="path108-1" d="M-183.394-341.017c-6.251-.149-11.7-5.691-11.788-12.85l-.108-32.321-12.4.085v32.608c0,9.676,7.436,21.127,16.609,21.127h12.961v-8.639Z" transform="translate(207.686 386.187)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
