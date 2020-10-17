@@ -200,7 +200,15 @@ font-size: 14pt;
 @media screen and (max-width: 600px) {
   p.headings{
     margin-top: 42px;
-    font-size: 16pt;
+
+    font-size: 14pt;
+font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.content{
+    font-size: 10pt;
   }
 }
 
