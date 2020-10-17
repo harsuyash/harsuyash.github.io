@@ -201,14 +201,14 @@ font-size: 14pt;
   p.headings{
     margin-top: 42px;
 
-    font-size: 4.75vw;
+    font-size: 4.8vw;
 font-weight: 500;
   }
 }
 
 @media screen and (max-width: 600px) {
   p.content{
-    font-size: 3.65vw;
+    font-size: 3.7vw;
 font-weight&: 500;
 color: #777777
   }
