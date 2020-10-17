@@ -390,12 +390,7 @@ html {
     border-color: #aaaaaa;
   }
 }
-@media screen and (max-width: 900px) {
- p.headings {
-   font-size: 14pt;
-     font-weight: 600;
-    }
-}
+
 
 @media screen and (max-width: 900px) {
  iframe.video {
@@ -404,6 +399,37 @@ html {
      
     }
 }
+
+@media screen and (max-width: 600px) {
+  p.headings{
+    
+
+    font-size: 4.8vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.content{
+    font-size: 3.7vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.fields{
+    font-size: 3.2vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.topnav a{
+    font-size: 3.5vw;
+
+  }
+}
+
 @media screen and (max-width: 900px) {
  ul.topprog a{
   font-size: 1.5vw;
@@ -424,8 +450,4 @@ html {
   }
 }
 
-@media print {
-  p.content {
-    widows: 3;
-  }
-}
+
