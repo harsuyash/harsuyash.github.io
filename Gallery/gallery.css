@@ -22,7 +22,7 @@ html {
 }
 
 .menu{
-    background: rgba(255,255,255, 0.3);
+    background: rgba(255,255,255, 1);
     overflow: hidden;
     z-index:1; /*Add this*/
 }
