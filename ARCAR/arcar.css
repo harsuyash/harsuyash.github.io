@@ -60,6 +60,7 @@ html {
   display:flex;
   justify-content: center;
   align-items: center;
+	 z-index:1; /*Add this*/
 }
 .loader {
   display: inline-block;
