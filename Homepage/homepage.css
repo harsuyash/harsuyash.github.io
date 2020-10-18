@@ -224,7 +224,7 @@ color: #777777
 @media screen and (max-width: 600px) {
   div.topnav a{
     font-size: 3.5vw;
-
+color: #999999
   }
 }
 
