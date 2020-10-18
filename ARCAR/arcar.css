@@ -30,9 +30,9 @@ html {
    
     background-position: center;
     background-repeat: no-repeat; 
-    background-size: cover;
+    background-size: contain;
     padding-top: 14%;
-    background-attachment: fixed;
+    
 }
 
 .ending{
