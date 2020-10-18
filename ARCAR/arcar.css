@@ -60,7 +60,7 @@ html {
   display:flex;
   justify-content: center;
   align-items: center;
-margin-top: 200px;
+margin-top: 120px;
 }
 .loader {
   display: inline-block;
