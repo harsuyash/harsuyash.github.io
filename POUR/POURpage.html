@@ -30,7 +30,9 @@
 <body>
     
     
-    
+     <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+    </div>
      
     <header class="menu" id="myHeader">
             <div class="topnav" id="mynav">
@@ -855,7 +857,9 @@ function myFunction4() {
                 });
         })();
     
-    
+     $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
     
 </script>
     </body> 
