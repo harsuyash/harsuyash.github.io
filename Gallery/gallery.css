@@ -1,0 +1,152 @@
+html {
+	scroll-behavior: smooth;
+}	
+
+.body {
+	background-color: #ffffff;
+    scroll-behavior: smooth;
+    
+
+}
+
+.main {
+    width:100%;
+    
+}
+
+.menu{
+    background: rgba(255,255,255, 0.3);
+    overflow: hidden;
+    z-index:1; /*Add this*/
+}
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.resume {
+	transform: translate(-12px, 0px);
+	
+}
+
+.download {
+	margin-top: 4px;
+	opacity: 0;
+	transition: .3s ease;
+}
+
+.resume:hover .download{
+	opacity: 1;
+	transition: .7s ease;
+}
+.resume:hover {
+	color: black;
+	transform: translate(6px, 0px);
+	transition: .7s ease;
+}
+
+.topnav {
+    
+    overflow: hidden;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0px; 
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family:'Merriweather', serif; 
+  font-size: 11pt; 
+  color: dimgrey;
+    
+}
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin-top: 3px;
+}
+
+.topnav a:hover{
+    color: black;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+    margin: auto;
+    position: relative
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.headings{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600; 
+    font-size: 20pt;
+    color: #555555;
+    position: relative;
+    margin: auto;
+    max-width: 640px;
+    margin-top: 100px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.content{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 14pt;
+    color: #555555;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 640px;
+    padding-left: 24px;
+    padding-right: 24px;
+    widows: 4;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
