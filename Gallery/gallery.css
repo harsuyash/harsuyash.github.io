@@ -75,7 +75,7 @@ html {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-family:'Merriweather', serif; 
+  font-family:'Libre Franklin', sans-serif;  
   font-size: 11pt; 
   color: dimgrey;
     
@@ -140,6 +140,36 @@ html {
     padding-left: 24px;
     padding-right: 24px;
     widows: 4;
+}
+@media screen and (max-width: 600px) {
+  p.headings{
+    margin-top: 42px;
+
+    font-size: 4.8vw;
+font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.content{
+    font-size: 3.7vw;
+font-weight&: 500;
+color: #777777
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.fields{
+    font-size: 3vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.topnav a{
+    font-size: 3.5vw;
+color: #999999
+  }
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
