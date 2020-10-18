@@ -60,7 +60,7 @@ html {
   width: 30px;
   height: 30px;
   position: relative;
-  border: 4px solid #519FCC;
+  border: 4px solid #ee77aa;
   animation: loader 2s infinite ease;
 }
 
@@ -68,7 +68,7 @@ html {
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #519FCC;
+  background-color: #ee77aa;
   animation: loader-inner 2s infinite ease-in;
 }
 
