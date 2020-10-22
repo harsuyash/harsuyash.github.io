@@ -252,6 +252,11 @@ margin-top: 120px;
     
 }
 
+.screens{
+	
+	border-radius: 18px;
+}
+
 .title{
     font-family: 'IBM Plex Serif', serif;
     font-size: 72pt;
