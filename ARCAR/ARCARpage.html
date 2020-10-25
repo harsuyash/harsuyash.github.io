@@ -80,9 +80,7 @@
     <span class="loader"><span class="loader-inner"></span></span>
     </div>
 	
-        <div class="cover">
-            
-        </div>   
+        <img src="AR%20CAR.jpeg" width="100%">  
      
 
     
@@ -886,8 +884,8 @@ function myFunction4() {
                 });
         })();
     
-    $(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
+     $(window).load(function(){
+  setTimeout(function(){ $('.loader-wrapper').fadeOut() }, 3000);
 });
     
 </script>
