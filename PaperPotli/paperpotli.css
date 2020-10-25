@@ -55,6 +55,7 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 120px;
+	  z-index:1;
 }
 .loader {
   display: inline-block;
