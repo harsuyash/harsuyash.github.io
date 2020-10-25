@@ -523,8 +523,9 @@ function myFunction4() {
                 });
         })();
     
- $('.loader-wrapper').delay(4000).fadeOut()
-});  
+ $(function() {
+    $('.loader-wrapper').delay(5000).show().fadeOut('slow');
+});
     
 </script>
     </body> 
