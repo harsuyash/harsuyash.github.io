@@ -81,10 +81,7 @@
     </div>
     
     <!-- COVER PHOTO -->
-    <div id="coverpage">  
-        <div class="cover">
-        </div>
-    </div>  
+    <img src="intro%20teaser.png" width="100%">    
 
     
     
@@ -883,8 +880,8 @@ function myFunction4() {
                 });
         })();
     
-     $(window).on("load",function(){
-     $(".loader-wrapper").fadeOut("slow");
+     $(window).load(function(){
+  setTimeout(function(){ $('.loader-wrapper').fadeOut() }, 3000);
 });
     
 </script>
