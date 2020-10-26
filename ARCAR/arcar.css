@@ -241,6 +241,9 @@ margin-top: 120px;
   color: #888888; 
 }
 
+.topprog a:hover{
+	color:black;
+
 .topprog li a.active{
     border-bottom: 0.12em #519FCC solid;
     color: #519FCC;
