@@ -220,6 +220,7 @@ table, th, td {
 }
 
 .topprog{
+	margin: auto;
     overflow: hidden;
     list-style-type: none;
     margin: 4px;
@@ -239,6 +240,10 @@ table, th, td {
   font-family:'Libre Franklin', sans-serif; 
   font-size: 1vw; 
   color: #888888; 
+}
+
+.topprog a:hover{
+	color:black;
 }
 
 .topprog li a.active{
