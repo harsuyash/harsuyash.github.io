@@ -543,3 +543,12 @@ padding-bottom: 24px;
       padding-top: 24px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  p.sections{
+    
+
+    font-size: 6vw;
+
+  }
+}
