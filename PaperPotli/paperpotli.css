@@ -585,3 +585,12 @@ padding-bottom: 24px;
       margin-top: 30px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  p.sections{
+    
+
+    font-size: 6vw;
+
+  }
+}
