@@ -7,14 +7,14 @@
 	<meta name="viewport" content="width= device-width">
         
     <!-- FAVICON -->    
-    <link rel="icon" type="image/png" href="/Homepage/favicon.png" >
+    <link rel="icon" type="image/png" href="Homepage/favicon.png" >
         
     <!-- FONTS -->    
 	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Noto+Serif:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
     
     <!-- STYLESHEET -->    
-    <link href="/Homepage/homepage.css" rel="stylesheet" type="text/css">
+    <link href="Homepage/homepage.css" rel="stylesheet" type="text/css">
     
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -27,80 +27,97 @@
         <div class="main" >
             <div class="menu" id="myHeader">
             <div class="topnav" id="mynav">
-                <a href="index.html"><img src="/Homepage/HSB%20LOGO.svg" alt="Logo" width="32px" class="homeicon" id="hidden" style="margin-left: auto; margin-right: auto; margin-top: 7px"></a>
+                <a href="index.html"><img src="Homepage/HSB%20LOGO.svg" alt="Logo" width="32px" class="homeicon" id="hidden" style="margin-left: auto; margin-right: auto; margin-top: 7px"></a>
                     <div class="topnav-right">
                         
                          
                          <a href="#anchor-mywork" style="margin-top: 10px">Case Studies</a>
-                         <a href="/Gallery/Gallery.html"  style="margin-top: 10px; margin-left: 3px"> Gallery</a>
-                         <a href="/Homepage/Resume.pdf" class="resume"> <img src="/Homepage/download.svg"  class="download" alt="instagram account" width="18px" style="margin-top: 7px"> Resume</a>
+                         <a href="Gallery/Gallery.html"  style="margin-top: 10px; margin-left: 3px"> Gallery</a>
+                         <a href="Homepage/Resume.pdf" class="resume"> <img src="Homepage/download.svg"  class="download" alt="instagram account" width="18px" style="margin-top: 7px"> Resume</a>
                        
                 </div>
             </div>
            </div>     
             
             <div class="intro" id="myintro">
-                <img src="/Homepage/HSB%20LOGO.svg" alt="Logo" width="140px" style="display: block; margin-left: auto; margin-right: auto;">
+                <img src="Homepage/HSB%20LOGO.svg" alt="Logo" width="140px" style="display: block; margin-left: auto; margin-right: auto;">
                 <p  class="headings" >Hi, I'm Har Suyash Bahadur Sinha</p>
                
                 <p class="content" style="margin-top: 10px">I am a design student at IDC, IIT Bombay who loves to reverize and visualize ideas. I design interactive products from user research to prototype, intended at solving user problems. I also love cats, cars and calligraphy :)</p>
             </div>
-            <div class="loader-wrapper">
-    <span class="loader"><span class="loader-inner"></span></span>
-    </div>
+            
             
             <div id="anchor-mywork" style="margin-top: 150px; width:100%; padding-bottom: 150px; background: linear-gradient(190deg, rgba(241,249,255,1) 0%, rgba(253,245,248,1) 35%, rgba(249,244,243,1) 100%);">
-                <img src="/Homepage/Down%20Arrow.png" alt="Logo" width="140px" style="display: block; margin-left: auto; margin-right: auto;">
+                <img src="Homepage/Down%20Arrow.png" alt="Logo" width="140px" style="display: block; margin-left: auto; margin-right: auto;">
                 
                 <div class="projects">
-			
-			<center><p class="headings" style="margin: auto; padding-top: 30px; padding-bottom: 100px;">UX Case Studies</p></center>
+                   <center><p class="headings" style="margin: auto; padding-top: 30px; padding-bottom: 100px;">UX Case Studies</p></center> 
                     
-                    <div id="ARCar">
+                      
                         
                         <a href="ARCAR/ARCARpage.html">
-                            <div class="container">
-                            <img src="Homepage/AR%20CAR.png" alt="A R car" class="images" >
-                                <div class="middle">
+                     <div class="container">
+                    <div id="ARCar" class="cards">
+                      <div class="middle">
                                 <div class="text">View Full Project</div>
                                 </div>
-                            </div>    
-                       <p class="headings" align="left" style="color: #519FCC">Interactions in Augmented Reality</p></a> 
+                           
+                            <img src="Homepage/AR%20CAR.png" alt="A R car" class="images" >
+                                
+                               
+                       <p class="headings" align="left" style="color: #519FCC">Interactions in Augmented Reality</p> 
                         <p align="left" class="content">The project explored the topic of How Stuff Works using Augmented Reality as a medium. For the scope of this project, I explain how an IITB Racing car works, through a hand held device AR. Looked at key interaction design problems. </p> 
                         <p align="left" class="fields">AR design  &emsp;  Interaction design  &emsp;  Unity prototyping</p> 
                     </div>
+                    </div>
+                    </a>
                     
-                    <div id="POUR" style=" margin-top: 150px">
-                        <a href="POUR/POURpage.html">
-                             <div class="container">
-                            <img src="Homepage/POUR.png" alt="POUR"  class="images">
-                            <div class="middle">
+                    
+                    
+                    <a href="POUR/POURpage.html">
+                         <div class="container">
+                    <div id="POUR" class="cards" style=" margin-top: 100px">
+                        <div class="middle">
                                 <div class="text">View Full Project</div>
                                 </div>
-                            </div>   
-                            <p align="left" class="headings" style="color: #dd5588">Assistive Device for Blind Users </p> </a>
+                            
+                            <img src="Homepage/POUR.png" alt="POUR"  class="images">
+                            
+                              
+                            <p align="left" class="headings" style="color: #dd5588">Assistive Device for Blind Users </p>
                         <p align="left" class="content">Designed an assistive device for blind users to help safely pour hot liquids. The project explored cognitive ergonomics and how the form of the product could communicate useful information,  providing a feedback loop for the blind. </p> 
                         <p align="left" class="fields">Product design  &emsp;  Tactile interactions &emsp; User study</p> 
                     </div>
+                        </div>     
+                     </a>
                     
-                    <div id="PaperPotli" style=" margin-top: 150px">
-                        <a href="PaperPotli/PaperPotlipage.html">
-                             <div class="container">
-                            <img src="Homepage/Paper%20Potli.png" alt="Paper Potli"  class="images">
-                                  <div class="middle">
+                    
+                    
+                    
+                    
+                    
+                    <a href="PaperPotli/PaperPotlipage.html">
+                    <div class="container">
+                    <div id="PaperPotli" class="cards" style=" margin-top: 100px">
+                         <div class="middle">
                                 <div class="text">View Full Project</div>
                                 </div>
-                            </div>
-                            <p align="left" class="headings" style="color: #E79C46">Game for Gender Equality </p> </a>
+                        
+                             
+                            <img src="Homepage/Paper%20Potli.png" alt="Paper Potli"  class="images">
+                                 
+                            
+                            <p align="left" class="headings" style="color: #E79C46">Game for Gender Equality </p> 
                         <p align="left" class="content">A craft + AR avatar making game for making children gender aware. Designed an end to end model for promoting gender equality among children through craft workshops and a digital application. The DIY dolls help explain, express and explore gender.</p> 
                         <p align="left" class="fields">Game design  &emsp;  Social design &emsp; User study</p> 
                     </div>
-                    
+                    </div>
+                        </a>
                     <!--<div id="VAVE" style=" margin-top: 150px">
                         <img src="Homepage/VAVE.png" alt="VAVE"  class="images">
                         <p align="left" class="headings" style="color:#617C8D">Virtual Music Instrument</p> 
                         <p align="left" class="content">Designed and prototyped a virtual music instrument played with hand gestures. Explores tangible interactions to map different music variables with intuitive hand gestures. Explored mixed reality to visualize music.</p> 
-                        <p align="left" class="fields">Interaction design  &emsp;  Tangible interaction &emsp; Mixed reality</p> 
+                        <p align="left" class="fields">JAN 2020 | &emsp; Interaction design  &emsp;  Tangible interaction &emsp; Mixed reality</p> 
                     </div>-->
                     
                    
@@ -137,9 +154,6 @@ $(document).scroll(function () {
         $('.homeicon').fadeOut();
     }
 
-});
-		$(function() {
-    $('.loader-wrapper').delay(100).show().fadeOut('slow');
 });
            
 </script>
