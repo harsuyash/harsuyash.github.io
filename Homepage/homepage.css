@@ -184,11 +184,13 @@ html {
 
 .cards{
     max-width: 640px;
+    margin: -12px;
     margin-top: 0;
-    padding: 30px;
+    padding: 24px;
+   
     background-color: white;
     box-shadow: 2px 2px 12px 4px rgba(240,240,240,1);
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 .links {
@@ -258,8 +260,6 @@ margin-top: 100px
   background: rgba(255,255,255, 1);
   }
 }
-
-
 @media screen and (max-width: 600px) {
   p.headings{
     
