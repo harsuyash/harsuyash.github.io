@@ -582,3 +582,11 @@ small-img{
   }
 }
 
+@media screen and (max-width: 600px) {
+  p.sections{
+    
+
+    font-size: 6vw;
+
+  }
+}
