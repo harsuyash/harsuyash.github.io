@@ -167,8 +167,12 @@ html {
   transform: scale(1.07);
 }
 
+.container:hover .images {
+  opacity: 0.5;
+ 
+}
 .container:hover .middle {
-  opacity: 0.7;
+  opacity: 1;
 }
 
 
@@ -278,7 +282,7 @@ margin-top: 100px
 
 @media screen and (max-width: 600px) {
   p.fields{
-    font-size: 3.2vw;
+    font-size: 3vw;
 
   }
 }
