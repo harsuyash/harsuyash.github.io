@@ -434,8 +434,16 @@ table, th, td {
 }
 
 
+.gif{
+   width:640px;
+   margin-top: 60px;
+    padding-bottom: 24px;
+      padding-top: 24px;
+}
 
-
+.queer{
+   width: 100%; margin-top: -250px; padding-bottom: 0; margin-bottom: 0; overflow-y: none; 
+}
 
 @media screen and (max-width: 600px) {
   div.cover {
@@ -540,5 +548,40 @@ table, th, td {
 @media screen and (max-width: 960px) {
   nav.progress {
   display: none;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  img.gif {
+  width: 100%;
+  margin-top: 60px; 
+padding-bottom: 24px;
+      padding-top: 24px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  img.screens {
+  width: 150px;
+  margin: auto;
+      display: flex;
+      align-content: center;
+      padding: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  img.goal {
+  width: 50%;
+  margin: auto;
+      display: flex;
+      align-content: center;
+      padding: 14px;
+  }
+}
+@media screen and (max-width: 960px) {
+  img.queer {
+  width: 100%;
+      margin-top: 30px;
   }
 }
