@@ -238,12 +238,6 @@ font-size: 14pt;
 
 
 
-@media screen and (max-width: 600px) {
-  p.headings{
-    margin-top: 42px;
-    font-size: 16pt;
-  }
-}
 
 @media screen and (max-width: 600px) {
   div.links {
@@ -262,6 +256,30 @@ margin-top: 100px
 @media screen and (max-width: 1400px) {
   div.menu {
   background: rgba(255,255,255, 1);
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  p.headings{
+    
+
+    font-size: 4.8vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.content{
+    font-size: 3.7vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.fields{
+    font-size: 3.2vw;
+
   }
 }
 
