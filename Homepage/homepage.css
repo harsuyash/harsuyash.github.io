@@ -264,3 +264,10 @@ margin-top: 100px
   background: rgba(255,255,255, 1);
   }
 }
+
+@media screen and (max-width: 600px) {
+  div.topnav a{
+    font-size: 3.5vw;
+
+  }
+}
