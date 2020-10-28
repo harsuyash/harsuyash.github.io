@@ -302,11 +302,13 @@ margin-top: 100px
   }
 }
 
-@media screen and (max-width: 600px) {
- div.text{
-    
 
-    font-size: 4.8vw;
+
+@media screen and (max-width: 600px) {
+ div.middle{
+    
+display: none;
+    
 
   }
 }
