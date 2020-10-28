@@ -14,23 +14,6 @@ html {
     
 }
 
-.loader-wrapper {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #ffffff;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-margin-top: 120px;
-	  z-index:1;
-}
-
-
-
-
 .menu{
     background: rgba(255,255,255, 0.3);
     overflow: hidden;
@@ -107,7 +90,7 @@ margin-top: 120px;
 .headings{
     font-family: 'IBM Plex Serif', serif;
     font-weight: 400; 
-    font-size: 22pt;
+    font-size: 20pt;
     color: #777777;
     position: relative;
     margin: auto;
@@ -146,12 +129,13 @@ margin-top: 120px;
     color: #aaaaaa; 
     position: relative;
     margin: auto;
-    max-width: 640px;
+    max-width: 600px;
     margin-top: 24px;
 }
 
 .container {
   position: relative;
+    transition: transform .5s; /* Animation */
 
 }
 
@@ -161,7 +145,7 @@ margin-top: 120px;
     margin-right: auto; 
     max-height: 100%; 
     max-width: 100%;
-    transition: transform .2s; /* Animation */
+    
    
       transition: .5s ease;
   backface-visibility: hidden;
@@ -171,20 +155,22 @@ margin-top: 120px;
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.container:hover .images {
-  opacity: 0.4;
+.container:hover {
+  opacity: 0.8;
+  transform: scale(1.07);
 }
 
 .container:hover .middle {
-  opacity: 0.5;
+  opacity: 0.7;
 }
+
 
 .text {
    
@@ -196,6 +182,14 @@ margin-top: 120px;
   padding: 16px 32px;
 }
 
+.cards{
+    max-width: 640px;
+    margin-top: 0;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 12px 4px rgba(240,240,240,1);
+    border-radius: 12px;
+}
 
 .links {
 font-family:'Merriweather', serif; 
@@ -240,46 +234,14 @@ font-size: 14pt;
     text-decoration: none;
 }
 
-.projects a:hover .images{
-    
-    transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
 
-.images:hover{
-    
-    transform: scale(1.07); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    
-}
+
 
 
 @media screen and (max-width: 600px) {
   p.headings{
     margin-top: 42px;
-
-    font-size: 4.8vw;
-font-weight: 500;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  p.content{
-    font-size: 3.7vw;
-font-weight&: 500;
-color: #777777
-  }
-}
-
-@media screen and (max-width: 600px) {
-  p.fields{
-    font-size: 3vw;
-
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.topnav a{
-    font-size: 3.5vw;
-color: #999999
+    font-size: 16pt;
   }
 }
 
