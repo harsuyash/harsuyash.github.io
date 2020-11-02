@@ -524,11 +524,13 @@ table, th, td {
   display: none;
   }
 }
-@media screen and (max-width: 960px) {
-  img.gif {
-  width: 100%;
-  margin-top: 60px; 
-padding-bottom: 24px;
-      padding-top: 24px;
+
+
+@media screen and (max-width: 600px) {
+  p.sections{
+    
+
+    font-size: 7vw;
+
   }
 }
