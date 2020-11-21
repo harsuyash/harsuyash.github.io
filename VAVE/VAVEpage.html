@@ -181,7 +181,7 @@ The inspirations for digital musical instruments were of theremin. We also got i
         
     
     
-    <!-- EXPLORE -->
+       <!-- EXPLORE -->
 <section class="define" id="define">
 <p class="sections">EXPLORATION</p>
 <div class="cards">   
@@ -196,23 +196,35 @@ The inspirations for digital musical instruments were of theremin. We also got i
     
     <p class="headings">Figuring Out Ways to Interact</p>
     <p class="content">We looked at methods to interact without a controller, like using a raycast reticle to point and shoot using a phone, using virtual buttons on an image marker in AR, and using onscreen buttons in AR. </p>
-      <center>
-       <img src="vr%20gaze.png" style="width: 75%; margin-top: 30px" class="img">
-    </center>
-    <center><p class="caption" style="margin-top: 0">Using Raycast in VR to interact with our gaze.</p></center>
     
-  
+     <p class="headings">VR Gaze</p>
+    <p class="content">One simple way to interact in VR was by using the accelerometer of the phone and the Raycast Reticle feature in Google VR SDK that tracks where the person is looking/ gazing and triggers a pre-defined interaction with that element. Here in our prototype, when a person gazes at a cube, the cube changes its color from white to red and if the person continues to stare for a specified time limit, it changes to black.   </p>
+      <center>
+       <img src="vr%20gaze.png" style="width: 90%; margin-top: 0px" class="img">
+    </center>
+    <p class="caption" style="margin-top: 0">Learnings: A simple inbuilt interaction but moving around a lot to point the phone at elements in space could be tiring. </p>
+    
+     <p class="headings">On-screen buttons in AR</p>
+    <p class="content">In our next prototype, some keys pop up in the AR space and when these are pressed on the screen, a song is played. </p>
+     <center><iframe width="640px" height="360vh" src="https://drive.google.com/file/d/1fx-3wincCcgdfvDlPqSjsnkQ02AYKKwp/preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 30px;"></iframe></center>
+    <p class="caption" style="margin-top: 0">Learnings: Although in AR, the experience was like any other 2D application and not enjoyable.  </p>
+    
+    
     
     <p class="headings">Mixed-Reality and Virtual Buttons</p>
-    <p class="content">We also prototyped wearable AR by making a stereoscopic AR camera in Unity. This helped in having a tracker-based AR with virtual buttons, at the same time keeping your hands free, unlike hand-held AR using a mobile device.</p>
+    <p class="content">We also prototyped wearable AR by making a stereoscopic AR camera in Unity. This helped in having a tracker-based AR with virtual buttons, at the same time keeping your hands free, unlike hand-held AR using a mobile device. As the hands were free, we could add some virtual buttons in the 3D world space that could be interacted with using our hands. </p>
     <center><iframe width="640px" height="360vh" src="https://drive.google.com/file/d/154RvjL8lNREDM1RT0pnAdzT1Bdc9EWqF/preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 30px;"></iframe></center>
+    <p class="caption" style="margin-top: 0">Learnings: Interactions became more immersive but the virtual buttons only work when visible through the camera. </p>
     
     <p class="headings">Making Our Own Controllers</p>
     <p class="content">We also tried to make our own controllers with simple sensors like accelerometer, gyroscope, and ultrasonic sensor and map hand movements recorded through them to different musical variables. </p>
     <center><iframe width="640px" height="360vh" src="https://drive.google.com/file/d/1Al2TcqojT00nYo6-iDlEv4CtiAUncrU-/preview" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top: 30px;"></iframe></center>
+    <p class="caption" style="margin-top: 0">Learnings: As the sensors were independent from AR camera, one could look anywhere while interacting with the controllers. 
+    <br><br>
+    This also enabled a more tangible mode of interacting and we decided to go further with this.</p>
     
-    <p class="headings">Producing Sound Using Audio Helm </p>
-    <p class="content">Another challenge was to produce musical sounds in Unity based on the feedback from sensors/ virtual buttons/ raycast. We used the Audio Helm plugin, which is a live audio synthesizer, sequencer, and sampler for Unity that gives you the tools to create dynamic sound effects and generative music. We then tweaked the code to control audio helm variables according to the input from sensors to make it interactive with gestures.</p>
+    <p class="headings">But Where Is The Music In All This? </p>
+    <p class="content">Another challenge was to produce musical sounds in Unity based on the feedback from sensors/ virtual buttons/ raycast. We used the Audio Helm plugin, which is a live audio synthesizer, sequencer, and sampler for Unity that gives you the tools to create dynamic sound effects and generative music. We then tweaked the code to control audio helm variables according to the input from sensors to make it interactive with&nbsp;gestures.</p>
     
     
     
