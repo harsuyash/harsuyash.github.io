@@ -1,0 +1,534 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+html {
+	scroll-behavior: smooth;
+     
+}	
+
+.body {
+
+    scroll-behavior: smooth;
+
+
+}
+
+.cover{
+    background: url(Cover.png); 
+    max-width:100%;
+    height: 360px;
+  
+   
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding-top: 14%;
+    background-attachment: fixed;
+}
+
+
+
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+	  z-index:1;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #1796f2;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #1796f2;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+.menu{
+    background: rgba(255,255,255,0.99);
+    overflow: hidden;
+    z-index:1; /*Add this*/
+    
+    
+   
+}
+
+
+table, th, td {
+  border: 2px solid #cccccc;
+  border-collapse: collapse;
+    padding: 6px;
+}
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+    transition: .3s ease;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .headings {
+  padding-top: -30px;
+}
+
+.sticky2{
+    position:fixed;
+    top: 60px;
+    transition: .3s ease;
+    width: 100%;
+}
+.sticky2 + .headings {
+  
+    
+}
+
+.resume {
+	transform: translate(-12px, 0px);
+	
+}
+
+.download {
+	margin-top: 4px;
+	opacity: 0;
+	transition: .3s ease;
+}
+
+.resume:hover .download{
+	opacity: 1;
+	transition: .7s ease;
+}
+.resume:hover {
+	color: black;
+	transform: translate(6px, 0px);
+	transition: .7s ease;
+}
+
+.topnav {
+    
+    overflow: hidden;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 0px;  
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+ font-family:'Libre Franklin', sans-serif; 
+  font-size: 11pt; 
+  color: dimgrey;
+    
+}
+
+
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  margin-top: 3px;
+    display: block;
+}
+
+.topnav a:hover{
+    color: black;
+}
+
+.progress{
+    background: rgba(245,245,245,1);
+    overflow: hidden;
+    z-index:1; /*Add this*/
+}
+
+.topprog{
+	margin:auto;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 4px;
+    margin-bottom: 0;
+    padding: 4px;
+    padding-bottom: 0;
+}
+
+.topprog a{
+  float: left;
+  text-align: center;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+   padding-bottom: 1.2em;
+    padding-top: 1em;
+  text-decoration: none;
+  font-family:'Libre Franklin', sans-serif; 
+  font-size: 1vw; 
+  color: #888888; 
+}
+
+.topprog a:hover{
+	color:black;
+}
+
+.topprog li a.active{
+    border-bottom: 0.12em #1796f2 solid;
+    color: #1796f2;
+    font-weight: 600;
+}
+
+
+.title{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 72pt;
+    color:#1796f2;
+    
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+
+.sections{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600; 
+    font-size: 36pt;
+    color: #ffffff;
+    position: relative;
+    margin: auto;
+    max-width: 640px;
+    margin-top: 100px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.headings{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600; 
+    font-size: 20pt;
+    color:#1796f2;
+    position: relative;
+    margin: auto;
+    max-width: 640px;
+    margin-top: 100px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.content{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 14pt;
+    color: #555555;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 640px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.caption{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 16pt;
+    color: #555555;
+    position: relative;
+    margin: auto;
+    max-width: 640px;
+    margin-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.projects {
+    max-width: 640px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 100px;
+    position: relative;
+}
+
+.projects a{
+    text-decoration: none;
+}
+
+.projects a:hover .images{
+    
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.images:hover{
+    
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+}
+
+.gif{
+   width:640px;
+   margin-top: 60px;
+    padding-bottom: 24px;
+      padding-top: 24px;
+}
+
+.fields{
+    font-family: 'Libre Franklin', sans-serif; 
+    font-size: 9pt; 
+    color: #aaaaaa; 
+    position: relative;
+    margin: auto;
+    max-width: 640px;
+    margin-top: 24px;
+}
+.images{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-height: 100%; 
+    max-width: 100%;
+    transition: transform .2s; /* Animation */
+}
+
+
+.headings2{
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: 400; 
+    font-size: 20pt;
+    color: #777777;
+    position: relative;
+    margin: auto;
+    max-width: 720px;
+    margin-top: 30px;
+    
+}
+
+.content2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 11pt;
+    color: #777777;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 720px;
+   
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 27%;
+  padding: 24px;
+  margin: auto;
+  
+  
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+    
+    justify-content: space-between;
+}
+.row{
+    max-width: 960px;
+    margin:auto;
+    margin-top: 60px;
+}
+
+.cards{
+    margin: 5%;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    background-color: white;
+    box-shadow: 2px 2px 12px 4px rgba(220,220,220,1);
+    
+}
+
+.img{
+   padding-top: 24px;
+   padding-bottom: 24px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  div.cover {
+    background-attachment: scroll;
+    height:auto;
+      
+      
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.title {
+    font-size: 36pt;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  div.column {
+    float: none;
+      width: 100%;
+      padding: 2px;
+      margin: 0px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  p.caption {
+    font-size: 12pt;
+      padding-left: 24px;
+      padding-right: 24px;
+      
+      
+  }
+}
+
+@media screen and (max-width: 900px) {
+  img.img {
+   width:100%;
+       
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  p.headings{
+    
+
+    font-size: 4.8vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.content{
+    font-size: 3.7vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  p.fields{
+    font-size: 3.2vw;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.topnav a{
+    font-size: 3.5vw;
+
+  }
+}
+
+@media screen and (max-width: 900px) {
+ iframe.video {
+  width:100%;
+     height: 56%;
+     
+    }
+}
+@media screen and (max-width: 900px) {
+ ul.topprog a{
+  font-size: 1.5vw;
+     padding-left: 1%;
+     padding-right: 1%;
+     
+    }
+}
+@media screen and (max-width: 1400px) {
+  div.menu {
+  background: rgba(255,255,255, 1);
+  }
+}
+
+@media screen and (max-width: 960px) {
+  nav.progress {
+  display: none;
+  }
+}
+@media screen and (max-width: 960px) {
+  img.gif {
+  width: 100%;
+  margin-top: 60px; 
+padding-bottom: 24px;
+      padding-top: 24px;
+  }
+}
