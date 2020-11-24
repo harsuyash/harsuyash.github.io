@@ -80,7 +80,7 @@ html {
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .topnav a:hover{
