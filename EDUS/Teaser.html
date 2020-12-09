@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head>
+    
+        <title>Part 1- teaser</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <!-- STYLESHEET -->    
+        <link href="tease.css" rel="stylesheet" type="text/css">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
+        
+    
+    </head>
+    
+    
+    <body>
+    
+        
+        
+         
+        <div class="menu" id="myHeader">
+            <div class="topnav" id="mynav">
+                <img src="steps%20teaser.png" class="steps">
+                    <div class="topnav-right">
+                        
+                         
+                        <p class="content" ><a href="Teaser.html">Teaser</a></p>
+                        <p class="content"><a href="">Lecture+Discussion</a></p>
+                        <p class="content"><a href="">Reflect</a></p>
+                        <p class="content"><a href="" style="padding-right: 0;">Checkout</a></p>
+                         
+                       
+                </div>
+            </div>
+           </div> 
+        
+        
+    
+        <div class="intro">
+        
+            <p class="heading">Teaser</p>
+            <p class="content">To describe the topic, set clear learning goals and perhaps an interesting trivia to catch attention. This helps in getting students excited and anticipate.
+            </p>
+            
+        </div>
+        
+    
+        <div class="cards">
+        <form name="myform" method="post">
+        
+            <div class="title" style="padding-top: 60px; padding-bottom: 30px;">
+            <div  style="position: relative; width:360px; margin: auto; ">
+                <div class="middle" style="position: absolute; top: 10%; right: 10px">
+                    <i class="fa fa-pencil-square-o" style="opacity: 0.2"></i>
+                </div>
+                <input type="text" name="title" id="mytext" value="Topic Name">
+            </div>    
+            </div>
+            
+            <div class="upload">
+                <div class="middle" style="position: absolute; top: 36%; left: 36%">
+                    <label class="custom-file-upload">
+                        <input type="file" onchange="readURL(this);" style="display: none"/>
+                        <img src="upload%20icon.png" width="50%">
+                    </label>
+                </div>    
+                <img id="blah" src="upload%20image.png" alt="your image" width="100%"/>
+            </div>
+            
+            <div class="back">
+            <p class="caption">Did you know?</p>    
+            <br>
+            <div class="fade">   
+            <textarea class="para" rows="6" cols="44" name="description">Share the most interesting fact or trivia about the topic that can catch students’ attention...</textarea>
+                 
+            <br>
+              <p class="caption" style="margin-top: 60px; color: beige">Lets find out more!</p>  
+                </div>
+            </div>
+            
+            <div class="mid">
+            <p class="caption">What will we learn?</p>
+            <textarea class="para"  name="description">Share why it is important to learn about this to get students interested. What is its relevance today...?</textarea>
+            </div>
+            
+            <div class="mid">
+            <p class="caption">Ande Ka Fanda</p>
+                <p class="content">These eggs contain questions related the topic and are opened at the end, when the students have to answer.</p>
+                
+                 <div class="upload">
+                <div class="middle" style="position: absolute; bottom: 10%; left:26%">
+                                            
+                        <textarea class="para" name="description" style="height: 100px;">Question 1</textarea>
+                    
+                </div>    
+                <center><img src="egg1.png" class="egg"></center>
+            </div>
+                <center><textarea class="ans"  name="description">Write the answer...</textarea>
+                <br>
+                <input type="button" class="button" id="button" value="Hide answer in the egg">
+                
+                </center> 
+            </div>
+            
+            
+            
+            <div class="end">
+        <p class="content"></p>    
+        <a href="Lecture.html"> <div class="buttons">Next</div></a>
+        </div>
+                    
+         
+        
+        </form>
+        </div>
+        
+        
+    
+        <script>
+        
+              function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+            
+            
+            
+            
+       $(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".fade").each(function() {
+      /* Check the location of each desired element */
+      var objectBottom = $(this).offset().top + $(this).outerHeight();
+      
+      /* If the element is completely within bounds of the window, fade it in */
+      if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+        if ($(this).css("opacity")==0) {$(this).fadeTo(1000,1);}
+      } else { //object goes out of view (scrolling up)
+        if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+      }
+    });
+  }).scroll(); //invoke scroll-handler on page-load
+});
+            
+            
+     
+             $(document).ready(function(){
+        $("#button").click(function(){
+            $(".ans").css("animation-play-state", "running");
+           
+    setTimeout( function(){
+    $(".ans").css("display","none");
+        document.getElementById("button").value = "You can crack it open at the end";
+        
+       },500);
+            
+        });
+
+    });
+            
+            
+            
+        
+        </script>
+    
+    </body>
+
+
+
+</html>
