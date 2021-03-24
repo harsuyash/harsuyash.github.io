@@ -34,7 +34,7 @@
                
                 <div style="position: absolute; top: 58%; left: 29%">
                    
-                       <img src="explode.gif" style="width: 50%; float: left">
+                       <img src="explode.gif" style="width: 50%; float: left" id="image">
                         <div style="width: 240px; border-style: solid; border-width: 6px; border-color:#FFCC6A; border-radius: 60px; padding-left: 3%; padding-right: 3%; float: left; margin-left: 38%; margin-top: -33%"><p id="demo" style="font-family: 'Rubik', sans-serif; color:  #FFC554; font-size: 2vw;">Ignite the bomb</p></div>
                         <br><br>
                      <p style="font-family: 'Rubik', sans-serif; font-size: 1.5vw; font-weight: 500; color: #FFC554; text-align: center; margin-top: 45%; margin-left: 36%"><a href="edusNominate.html" style="color:#FFC554 ">Next</a> &emsp; &emsp;  &emsp;  &emsp;  &emsp;&emsp; <a href="end.html" style="color:#FFC554 "> End</a></p>
@@ -42,7 +42,7 @@
                 <img id="blah" src="EDUS%20background.png" height="100%" >
             </div>  </center>
     
-     <script type="text/JavaScript">
+     <script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
          
          
         var myArray = [
@@ -93,7 +93,10 @@ myLoop();
  window.setTimeout("document.getElementById('something').style.display='none';", 2200);
           window.setTimeout("document.getElementById('somethings').style.display='block';", 2200);
   
-         
+   
+         $(document).ready(function () {
+        $("#image").attr("src", "explode.gif?" + Math.random());
+    });
          
        
          
