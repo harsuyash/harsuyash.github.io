@@ -2,25 +2,101 @@
 <head>
 
     <title>EDUS- learning</title>
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
 </head>
     
-<body bgcolor="#422B9E">
+<body >
 
            <center> <div >
+               
+                 <center><div style="position: absolute; top: 30%; left: 39%; ">
+                   
+                      <img src="EDUS.png" id="something" style="width: 75%; float: left; margin-left: 10%">
+                     <div id="somethings" style=" display: none;">
+                         
+                         <div style="position: absolute; top: -8%; left: 7%; ">
+                         
+                         
+                             <p style="font-family: 'Rubik', sans-serif; font-size: 1.4vw; color: #422B9E; text-align: center;"><i>"I think the answer is..." </i><br><br>or<br><br><i>"I am confused about..."</i></p> 
+                         
+                          
+                         </div>
+                         
+                         
+                     <img src="PerceptionCloud%20(2).gif" style="width: 75%; margin-top: -20%; margin-left: -45%">
+                         
+                         
+                         
+                         </div>
+                     
+                </div></center> 
+               
                 <div style="position: absolute; top: 58%; left: 29%">
-                    <label class="custom-file-upload" >
-                        <img src="the-blobs-live-on-bomb.gif" id="somethings" style="float: left"><img src="randomName.gif" width="350px" id="something" style="float: left; margin-top: 104px; margin-left: -12px">
-                    </label>
+                   
+                       <img src="explode.gif" style="width: 50%; float: left">
+                        <div style="width: 240px; border-style: solid; border-width: 6px; border-color:#FFCC6A; border-radius: 60px; padding-left: 3%; padding-right: 3%; float: left; margin-left: 38%; margin-top: -33%"><p id="demo" style="font-family: 'Rubik', sans-serif; color:  #FFC554; font-size: 2vw;">Ignite the bomb</p></div>
+                        <br><br>
+                     <p style="font-family: 'Rubik', sans-serif; font-size: 1.5vw; font-weight: 500; color: #FFC554; text-align: center; margin-top: 45%; margin-left: 36%"><a href="edusNominate.html" style="color:#FFC554 ">Next</a> &emsp; &emsp;  &emsp;  &emsp;  &emsp;&emsp; <a href="end.html" style="color:#FFC554 "> End</a></p>
                 </div>    
-                <img id="blah" src="iMac%20-%2022.png" >
+                <img id="blah" src="EDUS%20background.png" height="100%" >
             </div>  </center>
     
      <script type="text/JavaScript">
          
-       window.setTimeout("document.getElementById('something').style.display='none';", 2200);
          
-      setTimeout("location.href = 'perception.html';",2300);
+        var myArray = [
+  "Abhigyan",
+  "Adishi",
+  "Aditi P",
+        "Aditi V",
+        "Aditya",
+        "Akarshan",
+        "Aniket",
+        "Aradhya",
+        "Arnav",
+        "Avantika",
+        "Avika",
+        "Harshi",
+        "Ishaan",
+        "Kaavya",
+        "Krishna",
+        "Krishnaveer",
+        "Lavanyaa",
+        "Palak",
+        "Sankalp",
+        "Shivansh",
+        "Smita",
+        "Vaishnavi"
+];
+
+         var i = 1;                  //  set your counter to 1
+
+function myLoop() {         //  create a loop function
+  setTimeout(function() {   //  call a 3s setTimeout when the loop is called
+    var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+    
+document.getElementById("demo").innerHTML = randomItem;   //  your code here
+    i++;                    //  increment the counter
+    if (i < 23) {           //  if the counter < 10, call the loop function
+      myLoop();             //  ..  again which will trigger another 
+    }                       //  ..  setTimeout()
+  }, 100)
+}
+
+myLoop();
+
+      
+ 
+
+
+ window.setTimeout("document.getElementById('something').style.display='none';", 2200);
+          window.setTimeout("document.getElementById('somethings').style.display='block';", 2200);
+  
+         
+         
+       
+         
  </script>
 
 </body>    
