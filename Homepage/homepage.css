@@ -1,17 +1,17 @@
 html {
 	scroll-behavior: smooth;
-}	
+}
 
 .body {
 	background-color: #ffffff;
     scroll-behavior: smooth;
-    
+
 
 }
 
 .main {
     width:100%;
-    
+
 }
 
 .menu{
@@ -37,7 +37,7 @@ html {
 
 .resume {
 	transform: translate(-12px, 0px);
-	
+
 }
 
 .download {
@@ -57,11 +57,11 @@ html {
 }
 
 .topnav {
-    
+
     overflow: hidden;
     margin-left: 3%;
     margin-right: 3%;
-    margin-top: 0px; 
+    margin-top: 0px;
 }
 
 /* Style the links inside the navigation bar */
@@ -70,10 +70,10 @@ html {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-family:'Libre Franklin', sans-serif;  
-  font-size: 11pt; 
+  font-family:'Libre Franklin', sans-serif;
+  font-size: 11pt;
   color: dimgrey;
-    
+
 }
 
 
@@ -89,14 +89,14 @@ html {
 
 .headings{
     font-family: 'IBM Plex Serif', serif;
-    font-weight: 400; 
+    font-weight: 400;
     font-size: 20pt;
-    color: #777777;
+    color: #555555;
     position: relative;
     margin: auto;
     max-width: 720px;
     margin-top: 30px;
-    
+
 }
 
 .content{
@@ -107,7 +107,30 @@ html {
     margin: auto;
     margin-top: 20px;
     max-width: 720px;
-   
+
+}
+
+/* container */
+.two-columns-grid {
+    margin: auto;
+		margin-top: 40px;
+	  max-width: 80%;
+    display: block;
+		text-align: center;
+		vertical-align: middle;
+}
+
+/* columns */
+.two-columns-grid > * {
+    padding: 1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .two-columns-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .caption{
@@ -124,9 +147,9 @@ html {
 }
 
 .fields{
-    font-family: 'Libre Franklin', sans-serif; 
-    font-size: 9pt; 
-    color: #aaaaaa; 
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 9pt;
+    color: #aaaaaa;
     position: relative;
     margin: auto;
     max-width: 600px;
@@ -137,18 +160,18 @@ html {
   position: relative;
 	box-shadow: 2px 2px 12px 4px rgba(0,0,0,0.1);
     transition: transform .5s; /* Animation */
-	
+
 
 }
 
 .images{
     opacity: 1;
-    margin-left: auto; 
-    margin-right: auto; 
-    max-height: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
     max-width: 100%;
-    
-   
+
+
       transition: .5s ease;
   backface-visibility: hidden;
 }
@@ -172,7 +195,7 @@ html {
 
 .container:hover .images {
   opacity: 0.5;
- 
+
 }
 .container:hover .middle {
   opacity: 1;
@@ -180,31 +203,31 @@ html {
 
 
 .text {
-   
+
         font-family: 'Libre Franklin', sans-serif;
     font-weight: 600;
     font-size: 18pt;
   color:#000000;
-  
+
   padding: 16px 32px;
 }
 
 .cards{
     max-width: 640px;
-  
+
     margin-top: 0;
     padding: 24px;
-   
+
     background-color: white;
-    
+
     border-radius: 8px;
-    
+
 }
 
 .links {
-font-family:'Merriweather', serif; 
-font-size: 14pt; 
-color: #aaaaaa; 
+font-family:'Merriweather', serif;
+font-size: 14pt;
+color: #aaaaaa;
 margin-top: 100px
 }
 
@@ -220,8 +243,8 @@ text-align: center;
 }
 
 .links a{
-font-family:'Merriweather', serif; 
-font-size: 14pt; 
+font-family:'Merriweather', serif;
+font-size: 14pt;
     color: #0084FF;
     text-decoration: none;
 }
@@ -250,6 +273,14 @@ font-size: 14pt;
     display: none;
 }
 
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   div.view{
     display: block;
@@ -259,9 +290,9 @@ font-size: 14pt;
 
 @media screen and (max-width: 600px) {
   div.links {
-    font-family:'Merriweather Sans', sans-serif; 
-font-size: 11pt; 
-color: #aaaaaa; 
+    font-family:'Merriweather Sans', sans-serif;
+font-size: 11pt;
+color: #aaaaaa;
 margin-top: 100px
   }
 }
@@ -278,7 +309,7 @@ margin-top: 100px
 }
 @media screen and (max-width: 600px) {
   p.headings{
-    
+
 
     font-size: 4.8vw;
 
@@ -310,9 +341,9 @@ margin-top: 100px
 
 @media screen and (max-width: 600px) {
  div.middle{
-    
+
 display: none;
-    
+
 
   }
 }
